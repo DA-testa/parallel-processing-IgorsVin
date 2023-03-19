@@ -4,9 +4,9 @@ def parallel_processing(n, m, data):
     output = []
     # TODO: write the function for simulating parallel tasks, 
     # create the output pairs
-    taimeris = [0]*n
+    timeris = [0]*n
     for k in range(m):
-        tmin = min(taimeris)
+        tmin = min(timeris)
         thread = timeris.index(tmin)
         time = timeris[thread]
         output.append((thread, time))
